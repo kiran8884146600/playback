@@ -1,0 +1,6 @@
+aws kms encrypt \
+--key-id <alias>OR<arn> \
+--region eu-central-1 \
+--plaintext fileb://creds.yml \
+--output text \
+--query CiphertextBlob > creds.yml.encrypted
