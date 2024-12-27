@@ -6,12 +6,12 @@ variable "aws_region" {
 variable "aws_access_key" {
   description = "AWS_key"
   type        = string
-  default     = "secrete.AWS_ACCESS_KEY_ID"
+  default     = "Secrete.AWS_ACCESS_KEY_ID"
 }
 variable "aws_secret_key" {
   description = "AWS_key"
   type        = string
-  default     = "secrete.AWS_SECRET_ACCESS_KEY"
+  default     = "Secrete.AWS_SECRET_ACCESS_KEY"
 }
 variable "ami" {
   description = "AWS_ami"
