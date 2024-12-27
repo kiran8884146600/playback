@@ -1,6 +1,6 @@
 aws kms encrypt \
---key-id <alias>OR<arn> \
---region eu-central-1 \
+--key-id <arn:aws:kms:us-east-1:050451388809:key/378dcdba-d299-4c87-a949-825603121a06> \
+--region us-east-1 \
 --plaintext fileb://creds.yml \
 --output text \
 --query CiphertextBlob > creds.yml.encrypted
